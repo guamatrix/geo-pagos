@@ -1,13 +1,11 @@
-<p align="center"><img src="https://cdn.worldvectorlogo.com/logos/react.svg" width="130"></p>
-<p align="center">React-Redux-Boilerplate</p>
+Application geoPagos
 
-## About Repository
+In this app you can add, remove and process applications.
 
-React-Redux Boilerplate is ReactJS boilerplate with Redux, Redux-Saga and many other dependencies. The boilerplate containing modern web development tools such as Webpack, Babel and React Hot Loader.
+To start the app you need to follow this steps:
 
-## Quick start
+1 .- clone the repository
+2 .- npm install
+3 .- npm start
 
-1. Clone this repo using `git clone https://github.com/david-babunashvili/React-Redux-Boilerplate.git`
-2. Move to the appropriate directory: `cd React-Redux-Boilerplate`.
-3. Run `npm install` to install dependencies.
-4. Run `npm start` to start the development server.
+visit in your browser localhost:9000

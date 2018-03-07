@@ -1,0 +1,87 @@
+@import '../../../resources/assets/scss/loader';
+
+.inputData {
+	box-sizing: border-box;
+	height: 21px;
+	width: 133px;
+	color: #333333;
+	font-size: 18px;
+  line-height: 21px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  border:none;
+  border-bottom: 2px solid #979797;
+}
+
+.inputData:focus, .inputData:valid {
+  border-bottom: 2px solid #23C324;
+}
+
+.inputData::placeholder {
+  color: #ACACAC;
+}
+
+.inputData:focus { outline:none; }
+
+.title-name {
+	height: 19px;
+	width: 312.48px;
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+}
+
+.title-cuit {
+	height: 19px;
+	width: 177.04px;
+	color: #8E8E8E;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.num-cuit {
+	height: 19px;
+	width: 177.04px;
+	color: #333333;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.num-local {
+	height: 19px;
+	width: 121.58px;
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 19px;
+}
+
+.title-local {
+	height: 14px;
+	width: 121.58px;
+	color: #848484;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.box-date {
+	height: 17px;
+	width: 67.99px;
+	border-radius: 2px;
+  background-color: #B6B6B6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date {
+	height: 13px;
+	width: 61.86px;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 13px;
+	border-radius: 2px;
+	background-color: #B6B6B6;
+}

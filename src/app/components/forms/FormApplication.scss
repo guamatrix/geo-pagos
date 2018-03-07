@@ -1,0 +1,29 @@
+.button-custom {
+	height: 43px;
+	width: 160px;
+  border: 1px solid #777777;
+  font-size: 17px;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+}
+
+.button-custom-primary {
+	height: 43px;
+	width: 160px;
+  border-radius: 2px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+	background-color: #005B9C;
+}
+
+.container-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23.5px 1px 0px 1px;
+}
+
+.padding-button {
+  padding-top: 70px;
+}

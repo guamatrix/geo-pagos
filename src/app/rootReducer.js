@@ -1,12 +1,6 @@
-import {
-  combineReducers
-} from 'redux'
-import {
-  IntlReducer as Intl
-} from 'react-redux-multilingual'
-import {
-  commonReducer
-} from './modules/common/commonReducer'
+import { combineReducers } from 'redux'
+import { IntlReducer as Intl } from 'react-redux-multilingual'
+import { commonReducer } from './modules/common/commonReducer'
 
 const rootReducer = combineReducers({
   common: commonReducer,

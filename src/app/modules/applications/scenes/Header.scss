@@ -1,0 +1,38 @@
+@import '../../../resources/assets/scss/loader';
+
+.line {
+  padding: 16px
+}
+
+.line p {
+  box-sizing: border-box;
+  height: 28px;
+  border: 1px solid #979797;
+}
+
+nav {
+  padding: 0 12px 0 12px;
+  margin-bottom: 0px;
+  background-color: #ffffff;
+}
+
+p {
+  color: #666666;
+}
+
+a {
+  color: #005B9C;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.shape-copy-3 {
+	height: 2.12%;
+	width: 1.66%;
+	transform: rotate(405deg);
+}
+
+.add {
+  padding-right: 6px;
+}

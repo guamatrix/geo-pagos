@@ -1,6 +1,19 @@
 @import 'reset';
 @import 'fonts';
 @import 'loader';
-body {
+
+body, html {
   font-size: 16px;
+  font-family: 'Droid Sans';
+  background-color: #F6F6F6;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.divider {
+	border-bottom: 1px solid #979797;
+}
+
+button{
+  cursor: pointer;
 }
